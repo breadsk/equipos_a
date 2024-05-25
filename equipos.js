@@ -5,25 +5,29 @@ const equipos = [
         "id":1,
         "nombre":"universidad de chile",
         "estadio":"nacional",
-        "comuna":"ñuñoa"
+        "comuna":"ñuñoa",
+        "ciudad":"santiago"
     },
     {
         "id":2,
         "nombre":"colo colo",
         "estadio":"monumental",
-        "comuna":"macul"
+        "comuna":"macul",
+        "ciudad":"santiago"
     },
     {
         "id":3,
         "nombre":"",
         "estadio":"nacional",
-        "comuna":"ñuñoa"
+        "comuna":"ñuñoa",
+        "ciudad":"santiago"
     }
     ,{
         "id":4,
         "nombre":"cobreloa",
         "estadio":"calama",
-        "comuna":"calama"
+        "comuna":"calama",
+        "ciudad":"calama"
     }
 ];
 

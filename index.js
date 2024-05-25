@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const port = 3001;
 
-const { getEquipos , getEquipoById } = require("./controllers/equipos.controller");
+const { getEquipos , getEquipoById , getEquiposByCiudad } = require("./controllers/equipos.controller");
 
 //-------------------------------
 
@@ -13,6 +13,8 @@ const { getEquipos , getEquipoById } = require("./controllers/equipos.controller
 app.get("/" , getEquipos);
 
 app.get("/:id" , getEquipoById);
+
+app.get("/ciudad/:ciudad" , getEquiposByCiudad);
 
 
 //-------------------------------
